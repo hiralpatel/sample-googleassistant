@@ -58,7 +58,7 @@ public class AssistantActivity extends Activity implements Button.OnButtonEventL
     private static final String TAG = AssistantActivity.class.getSimpleName();
 
     // Peripheral and drivers constants.
-    private static final boolean AUDIO_USE_I2S_VOICEHAT_IF_AVAILABLE = true;
+    private static final boolean AUDIO_USE_I2S_VOICEHAT_IF_AVAILABLE = false;
     private static final int BUTTON_DEBOUNCE_DELAY_MS = 20;
 
     // Audio constants.
