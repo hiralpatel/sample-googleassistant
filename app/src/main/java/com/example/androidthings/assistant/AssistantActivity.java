@@ -257,7 +257,7 @@ public class AssistantActivity extends Activity implements Button.OnButtonEventL
                     }
                 }
             }
-            mButton = new Button(BoardDefaults.getGPIOForButton(), Button.LogicState.PRESSED_WHEN_LOW);
+            mButton = new Button(BoardDefaults.getGPIOForButton(), Button.LogicState.PRESSED_WHEN_HIGH);
             mButton.setDebounceDelay(BUTTON_DEBOUNCE_DELAY_MS);
             mButton.setOnButtonEventListener(this);
             PeripheralManagerService pioService = new PeripheralManagerService();
