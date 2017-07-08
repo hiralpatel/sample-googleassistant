@@ -40,7 +40,7 @@ public class BoardDefaults {
     public static String getGPIOForLED() {
         switch (getBoardVariant()) {
             case DEVICE_EDISON_ARDUINO:
-                return "IO13";
+                return "IO4";
             case DEVICE_EDISON:
                 return "GP45";
             case DEVICE_JOULE:
